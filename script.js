@@ -16,3 +16,10 @@ const changeMainTItle = function () {
   //mainTitle.style.color = "Red";
   // add paranthese when press Ctr+s
 };
+
+// EX13) Write a function to change the background of the jumbotron
+const changeJumbotronBg = function () {
+  const jumbotron = document.querySelector(".jumbotron");
+  jumbotron.classList.remove("bg-dark");
+  jumbotron.classList.add("bg-primary");
+};
