@@ -1,7 +1,6 @@
 /*
-            EX1) Write a selector to target the h1 in jumbotron
-            EX2) Write a selector to target every children of the navbar
-            EX3) Write a selector to target the "continue reading..." inside the jumbotron
+      
+            
             EX4) Write a selector to target the first blogpost
             EX5) Write a selector to target the "even" links in the navbar
             EX6) Write a selector to target the last blog post
@@ -18,5 +17,9 @@
 
 /*EX2) Write a selector to target every children of the navbar*/
 .nav-scroller .nav a {
+  color: blue !important;
+}
+/* EX3) Write a selector to target the "continue reading..." inside the jumbotron  */
+.jumbotron a {
   color: blue !important;
 }
