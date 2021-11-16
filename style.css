@@ -52,10 +52,15 @@
 
 /* EX8) Write a selector to target the second post author */
 
-.blog-post:nth-of-type(2) > .blog-post-meta > a {
+/* .blog-post:nth-of-type(2) > .blog-post-meta > a {
   background-color: yellowgreen;
-}
+} */
 .blog-post:nth-of-type(2) .blog-post-meta a {
   color: hotpink;
 }
 /* both work fine */
+
+/* EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly */
+p:last-of-type > a {
+  background-color: darkcyan;
+}
