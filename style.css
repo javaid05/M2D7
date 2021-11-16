@@ -15,3 +15,8 @@
 .jumbotron h1 {
   color: red;
 }
+
+/*EX2) Write a selector to target every children of the navbar*/
+.nav-scroller .nav a {
+  color: blue !important;
+}
