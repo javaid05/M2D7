@@ -30,13 +30,6 @@
   color: blue;
 }
 
-/*
-     
-            
-            EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly
-            EX10) Write a selector to target the footer
-        */
-
 /*  EX7) Write a selector to target all the li into the first ordered-list in the sidebar ( Archives ) */
 
 /* .list-unstyled:first-of-type {
@@ -63,4 +56,10 @@
 /* EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly */
 p:last-of-type > a {
   background-color: darkcyan;
+}
+
+/* EX10) Write a selector to target the footer */
+footer {
+  color: red;
+  background-color: green;
 }
