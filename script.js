@@ -7,3 +7,12 @@ const newLink = function () {
   navbar.appendChild(navlink);
 };
 newLink();
+// EX12) Write a function to change the color of the main title
+
+const changeMainTItle = function () {
+  const mainTitle = (document.querySelector("h1").style.color = "#a3a34a");
+  // mainTitle.innerText = 'I Changed The Title'
+  //const mainTitle = document.querySelector("h1");
+  //mainTitle.style.color = "Red";
+  // add paranthese when press Ctr+s
+};
