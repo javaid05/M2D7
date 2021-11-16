@@ -2,7 +2,7 @@
       
             
             
-            EX5) Write a selector to target the "even" links in the navbar
+            
             EX6) Write a selector to target the last blog post
             EX7) Write a selector to target all the li into the first ordered-list in the sidebar ( Archives )
             EX8) Write a selector to target the second post author
@@ -27,4 +27,10 @@
 .blog-post:first-of-type {
   background-color: red;
   color: blue;
+}
+
+/* EX5) Write a selector to target the "even" links in the navbar */
+
+.nav-scroller .nav a:nth-child(even) {
+  color: red !important;
 }
